@@ -4,7 +4,7 @@ Exemplo de como pegar resposta de requisicao e gravar em uma variavel de colecao
 pm.test('Pegar response e gravar em uma variavel da colecao', ()=>{
   var data = pm.response.json()
   var url = data.url // url eh o campo da resposta do exemplo.  
-  pm.collectionVariables.set("variable_key", url);  // variable_key trocar por variavel criada na collection
+  pm.collectionVariables.set("variable_key", url)  // variable_key trocar por variavel criada na collection
 })
 ```
 
