@@ -1,0 +1,6 @@
+version: "3"
+services:
+  teste:
+     image: "teste"
+     ports:
+       - "80:80"
